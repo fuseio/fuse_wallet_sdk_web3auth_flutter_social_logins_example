@@ -41,14 +41,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.2"
+  buffer:
+    dependency: transitive
+    description:
+      name: buffer
+      sha256: "8962c12174f53e2e848a6acd7ac7fd63d8a1a6a316c20c458a832d87eba5422a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.2.0"
   centrifuge:
     dependency: transitive
     description:
       name: centrifuge
-      sha256: a278ecc0b2e56822e5962f5f193d15684e46de597911b3cba1b45f371cd447b3
+      sha256: "26bc8e368799366db4e44b40de442c719b7af506aa79b3786dea11994265c5ec"
       url: "https://pub.dev"
     source: hosted
-    version: "0.10.0"
+    version: "0.11.0"
   characters:
     dependency: transitive
     description:
@@ -133,10 +141,10 @@ packages:
     dependency: transitive
     description:
       name: eip1559
-      sha256: de454d6321bd753eb79116e9ec4f8df20895c2e97f9a3839a032f3a728985516
+      sha256: c2b81ac85f3e0e71aaf558201dd9a4600f051ece7ebacd0c5d70065c9b458004
       url: "https://pub.dev"
     source: hosted
-    version: "0.6.1"
+    version: "0.6.2"
   eip55:
     dependency: transitive
     description:
@@ -145,6 +153,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.2"
+  equatable:
+    dependency: transitive
+    description:
+      name: equatable
+      sha256: c2b87cb7756efdf69892005af546c56c0b5037f54d2a88269b4f347a505e3ca2
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.5"
+  eth_sig_util:
+    dependency: transitive
+    description:
+      name: eth_sig_util
+      sha256: "20fdc5ce3864e70e5ade1c1cd03cce4ef01018db00adab107303f9055d26b01a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.9"
   fake_async:
     dependency: transitive
     description:
@@ -190,11 +214,12 @@ packages:
   fuse_wallet_sdk:
     dependency: "direct main"
     description:
-      name: fuse_wallet_sdk
-      sha256: "26356592cbd0a0d7a6f04199326de8d8c71c6e4585adf007c2d65d2a17b148d6"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.2"
+      path: "."
+      ref: "feat/erc-4337"
+      resolved-ref: "1979861163965fee7714437b14bbeae2a4253021"
+      url: "https://github.com/fuseio/fuse_wallet_sdk.git"
+    source: git
+    version: "1.0.0"
   hex:
     dependency: transitive
     description:
@@ -207,10 +232,10 @@ packages:
     dependency: transitive
     description:
       name: http
-      sha256: "5895291c13fa8a3bd82e76d5627f69e0d85ca6a30dcac95c4ea19a5d555879c2"
+      sha256: "759d1a329847dd0f39226c688d3e06a6b8679668e350e2891a6474f8b4bb8525"
       url: "https://pub.dev"
     source: hosted
-    version: "0.13.6"
+    version: "1.1.0"
   http_parser:
     dependency: transitive
     description:
@@ -295,10 +320,10 @@ packages:
     dependency: transitive
     description:
       name: protobuf
-      sha256: "01dd9bd0fa02548bf2ceee13545d4a0ec6046459d847b6b061d8a27237108a08"
+      sha256: "68645b24e0716782e58948f8467fd42a880f255096a821f9e7d0ec625b00c84d"
       url: "https://pub.dev"
     source: hosted
-    version: "2.1.0"
+    version: "3.1.0"
   rational:
     dependency: transitive
     description:
@@ -384,6 +409,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.2"
+  userop:
+    dependency: transitive
+    description:
+      name: userop
+      sha256: "51ba22b8a38b2561260341848eab9214ebbf1614b7e2d4544390fe1a3ba91d1f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.7"
   uuid:
     dependency: transitive
     description:
@@ -428,10 +461,10 @@ packages:
     dependency: transitive
     description:
       name: web3dart
-      sha256: "0b96223a6b284e3146e65dc842ded139eca68a85c4ab79c5ba1a73284927d3cd"
+      sha256: bebbea9278723cef51d21caf65668860e7547f59114fe9f8af01b873a72ba0e6
       url: "https://pub.dev"
     source: hosted
-    version: "2.6.1"
+    version: "2.7.1"
   web_socket_channel:
     dependency: transitive
     description:
